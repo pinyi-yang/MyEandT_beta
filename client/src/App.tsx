@@ -1,8 +1,16 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios';
 
 const App: React.FC = () => {
+
+  useEffect(() => {
+    axios.get('/test').then(res => {
+      console.log(res.data);
+    })
+  }, [])
+
   return (
     <div className="App">
       <header className="App-header">
