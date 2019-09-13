@@ -1,0 +1,31 @@
+{
+  "name": "myeandt_beta",
+  "version": "1.0.0",
+  "description": "beta version of myE&T",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon && cd client && npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadownova65/MyEandT_beta.git"
+  },
+  "keywords": [
+    "person",
+    "planner",
+    "task",
+    "tracker"
+  ],
+  "author": "Pinyi Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadownova65/MyEandT_beta/issues"
+  },
+  "homepage": "https://github.com/shadownova65/MyEandT_beta#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1"
+  }
+}
